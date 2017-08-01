@@ -1,3 +1,5 @@
+---
+---
 /* GLOBAL STYLES */
 html {
   box-shadow: 0 0 0 30px #000 inset;
@@ -124,7 +126,7 @@ h2 ~ p {
   transform: translate(-50%, 0%);
 }
 .hero-home {
-  background-image: url(/images/shark.jpg);
+  background-image: url('{{ site.baseurl }}/images/shark.jpg');
   background-position: center top;
 }
 .hero-content {
